@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-          scope: '@my-username'
+          scope: '@ptallen63'
       - run: npm i
       - run: npm publish
         env:
